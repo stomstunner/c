@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int arr[3][3]; // total 9 element
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){// code for taking input from user in 2 d array
+            scanf("%d",&arr[i][j]);
+        }
+    }
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            printf("%d ",arr[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
